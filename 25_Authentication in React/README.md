@@ -1,1 +1,0 @@
-Authorization with react :Fungsi menentukan akses hak/keistimewaan atas sumber daya, yaitu terkait dengan keamanan informasi umumdan keamanan komputer, dan untuk mengakseskontrol secara khusus. Lebih formal, "untukotorisasi" adalah untuk menentukan kebijakan akses

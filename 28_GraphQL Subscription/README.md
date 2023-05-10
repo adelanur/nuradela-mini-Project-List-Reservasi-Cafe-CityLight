@@ -1,1 +1,0 @@
-*Subscriptions adalah fitur GraphQL yang memungkinkan server mengirim data ke kliennya saat acara tertentu terjadi. Biasanya diimplementasikan dengan WebSockets. Dalam pengaturan itu, server memelihara koneksi stabil ke klien langganannya. Ketika data dimodifikasi maka client akan mendapatkan update data secara langsung secara real-time.

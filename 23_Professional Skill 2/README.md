@@ -1,1 +1,0 @@
-profesional skill 2
