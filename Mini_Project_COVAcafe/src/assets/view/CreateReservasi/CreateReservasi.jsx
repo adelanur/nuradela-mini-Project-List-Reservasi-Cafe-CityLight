@@ -110,10 +110,6 @@ const CreateReservasi = () => {
       foto: "",
     },
 
-    // onSubmit: (values) => {
-    //   alert(JSON.stringify(values, null, 2));
-    // },
-
     validationSchema: Yup.object({
       nama: Yup.string()
         .matches(/^[a-zA-Z ]+$/, "tidak boleh mengandung simbol")
@@ -169,7 +165,7 @@ const CreateReservasi = () => {
   });
 
   const handleDelete = (reservasiId) => {
-    const konfirmasiDelete = window.confirm("Apakah yakin hapus?");
+    const konfirmasiDelete = window.confirm("Apakah yakin menghapus?");
     if (konfirmasiDelete == true) {
       deleteReservasi({
         variables: { id: reservasiId },
